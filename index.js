@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 //Constants
 const PORT = '6060'
-const DB_URI = ''
+const DB_URI = '' //TODO:  Put your MongoDB URI here
 
 const app = express()
 
