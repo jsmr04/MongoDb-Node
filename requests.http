@@ -1,0 +1,61 @@
+//Get all data
+GET http://localhost:6060/api/types
+
+//Get data by id
+GET http://localhost:6060/api/types/60aabf60bca60e1bcea9f824
+
+//Create
+POST http://localhost:6060/api/types
+Content-Type: application/json
+
+{
+    "name": "Fumeteo"
+}
+
+//Update
+PUT http://localhost:6060/api/types/60aabf60bca60e1bcea9f824
+Content-Type: application/json
+
+{
+    "name": "Jugos"
+}
+
+//Delete
+DELETE http://localhost:6060/api/types/60aac147a82e1320f596627a
+Content-Type: application/json
+
+
+
+//Get all data
+GET http://localhost:6060/api/products
+
+//Get data by id
+GET http://localhost:6060/api/products/60aabf60bca60e1bcea9f824
+
+//Create
+POST http://localhost:6060/api/products
+Content-Type: application/json
+
+{
+    "code": "11111",
+    "name": "Jugo Mango",
+    "quantity": 15,
+    "price": 12.0,
+    "typeId": "dssdfgsdfgsef",
+    "images": [
+            { "name":"Pic 1", "url": "https://agrobahiachile.cl/wp-content/uploads/2020/09/queso-italiano-tabla-cortar-madera-sobre-escritorio_23-2148166523.jpg" },
+            { "name":"Pic 2", "url": "https://www.ejecentral.com.mx/wp-content/uploads/2018/01/Captura-de-pantalla-2018-01-08-a-las-6.07.54-p.m.-446x225.png" }
+        ]
+}
+
+//Update
+PUT http://localhost:6060/api/products/60aabf60bca60e1bcea9f824
+Content-Type: application/json
+
+{
+    "name": "Jugos"
+}
+
+//Delete
+DELETE http://localhost:6060/api/products/60aac147a82e1320f596627a
+Content-Type: application/json
