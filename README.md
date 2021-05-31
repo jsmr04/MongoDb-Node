@@ -1,3 +1,3 @@
 # MongoDb-Node
 
-Run npm install
+Run `npm install`
